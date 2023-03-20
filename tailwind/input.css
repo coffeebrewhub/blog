@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root {
+    @apply bg-white py-24 sm:py-32;
+}
+.root-wrap {
+    @apply mx-auto max-w-7xl px-6 lg:px-8;
+}
+.header {
+    @apply mx-auto max-w-2xl lg:mx-0;
+}
+
+.blog-title {
+    @apply text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl;
+}
+
+.nav {
+    @apply mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8;
+}
+
+.nav-list {
+    @apply flex items-center justify-between flex-1;
+}
+
+.main-wrap {
+    @apply mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3;
+}
+
+.thisIsNotAButton {
+    @apply py-2 px-4 bg-blue-700;
+    @apply text-white font-semibold rounded-lg;
+    @apply shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+}
